@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Love Confession</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('IMG_8866.JPG');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding-top: 100px;
+        }
+        .love-message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .reply-form {
+            margin-top: 20px;
+        }
+        .reply-input {
+            padding: 10px;
+            font-size: 16px;
+            width: 300px;
+        }
+        .reply-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: pink;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="love-message">
+        <p>My Dearest,</p>
+        <p>I want to confess my love for you. You mean everything to me and I cherish every moment we spend together. You make me the happiest person alive.</p>
+        <p>Forever yours,</p>
+        <p>Pranav</p>
+        <p>Will you be mine forever?</p>
+    </div>
+
+    <form class="reply-form" action="/reply" method="POST">
+        <input class="reply-input" type="text" name="reply" placeholder="Your reply...">
+        <br>
+        <button class="reply-button" type="submit">Send Reply</button>
+    </form>
+</div>
+
+</body>
+</html>
